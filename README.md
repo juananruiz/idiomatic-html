@@ -1,46 +1,43 @@
-# Principles of writing consistent, idiomatic HTML
+# Principios para escribir HTML consistente e idiomático
 
-The following document outlines a reasonable style guide for HTML development.
-These guidelines strongly encourage the use of existing, common, sensible
-patterns. They should be adapted as needed to create your own style guide.
+El siguiente documento esquematiza una guía de estilo razonable para el desarrollo con HTML.
+Estas directrices aconsejan el uso de patrones comunes y sensibles.
+Pueden ser adaptados en función de tus necesidades para crear tu propio libro de estilo
 
-This is a living document and new ideas are always welcome. Please
-contribute.
+Esto es un documento vivo por lo que nuevas ideas son bienvenidas. Se tan amable de contribuir.
 
+## Tabla de contenidos
 
-## Table of contents
+1. [Principios Generales](#principios-generales)
+2. [Espacios](#espacios)
+3. [Formato](#formato)
+4. [Orden de los atributos](#orden-atributos)
+5. [Nombres](#nombres)
+6. [Ejemplos Practicos](#ejemplos)
 
-1. [General principles](#general-principles)
-2. [Whitespace](#whitespace)
-3. [Format](#format)
-4. [Attribute order](#attribute-order)
-5. [Naming](#naming)
-6. [Practical example](#example)
-
-[License](#license)
+[Licensia](#licensia)
 
 
-<a name="general-principles"></a>
-## 1. General principles
+<a name="principios-generales"></a>
+## 1. Principios Generales
 
-* All code in any code-base should look like a single person typed it, no
-  matter how many people contributed.
-* Strictly enforce the agreed upon style.
-* If in doubt when deciding upon a style, use existing, common patterns.
+* Todo el código debe dar la impresión de estar escrito por la misma persona, no importa
+  cuanta gente haya colaborado.
+* Haga cumplir estrictamente los estilos acordados.
+* En caso de dudas a la hora de decidir sobre un estilo, use patrones ya existentes.
 
 
-<a name="whitespace"></a>
-## 2. Whitespace
+<a name="espacios"></a>
+## 2. Espacios
 
-Only one style should exist across the entire source of your code-base. Always
-be consistent in your use of whitespace. Use whitespace to improve
-readability.
+Sólo debe existir un estilo en todo su código fuente. Sea siempre consistente 
+en el uso de los espacios. Use los espacios para mejorar la legibilidad.
 
-* Never mix spaces and tabs for indentation.
-* Choose between soft indents (spaces) or real tabs. Stick to your choice
-  without fail. (Preference: spaces)
-* If using spaces, choose the number of characters used per indentation level.
-  (Preference: 4 spaces)
+* Nunca mezcle espacios y tabuladores para la indentación.
+* Elija entre indentado con espacios o tabuladores reales. Sea fiel a su elección 
+  sin excepciones. (Preferencia: espacios)
+* Si utiliza espacios, elija el número de caracteres para cada nivel de indentación
+  (Preferencia: 4 espacios)
 
 Tip: configure your editor to "show invisibles". This will allow you to
 eliminate end of line whitespace, eliminate unintended blank line whitespace,
